@@ -106,7 +106,7 @@ const myrandom = (peopleindex)=>{
   let randomindex = Math.floor(Math.random()*max+1)-1
   let item = labels[randomindex]
   mylabels.value.splice(randomindex,1)
-  console.log('labels',mylabels.value)
+  //console.log('labels',mylabels.value)
   return item == 'A'
  
 }
