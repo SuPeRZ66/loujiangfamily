@@ -100,8 +100,8 @@ const myrandom = (peopleindex)=>{
   }
   let labels =mylabels.value 
   labels = randomArr(labels)
-  console.log('peopleindex',peopleindex)
-  console.log(labels)
+  // console.log('peopleindex',peopleindex)
+  // console.log(labels)
   let max = labels.length
   let randomindex = Math.floor(Math.random()*max+1)-1
   let item = labels[randomindex]
